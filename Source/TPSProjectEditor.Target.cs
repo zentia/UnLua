@@ -20,4 +20,5 @@ public class TPSProjectEditorTarget : TargetRules{    public TPSProjectEditorT
         ExtraModuleNames.AddRange(            new string[]            {
                 "TPSProject"
             }            );
+        BuildEnvironment = TargetBuildEnvironment.Unique;
     }}
